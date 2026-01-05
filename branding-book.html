@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/booking.css" />
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/projekte.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="website icon" href="img/Logo/Zeichenfläche 5.png">
+
+    <title>Lana Design Portfolio</title>
+</head>
+
+
+<body>
+
+    <header class="navbar-container">
+        <div class="navbar-left">
+            <img src="img/Logo/Zeichenfläche 5.png" alt="Lana Design Logo" class="navbar-logo">
+            <span class="navbar-title">Lana Design</span>
+        </div>
+        <nav class="navbar-right">
+            <a href="Home.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="About.html">About me</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+
+    <main class="booking-page">
+        <h1>Book Your Branding Package</h1>
+
+        <form action="process_branding.php" method="POST" class="booking-form">
+
+            <!-- Personal Details -->
+            <fieldset>
+                <legend>Your Details</legend>
+                <label>Name<span>*</span><input type="text" name="name" required></label>
+                <label>Company / Organisation<input type="text" name="company"></label>
+                <label>Email<span>*</span><input type="email" name="email" required></label>
+                <label>Phone<input type="tel" name="phone"></label>
+                <label>Address<textarea name="address" rows="2"></textarea></label>
+            </fieldset>
+
+            <!-- Core Package -->
+            <fieldset>
+                <legend>Core Package</legend>
+                <ul class="booking-list">
+                    <li>Logo Design & Suite</li>
+                    <li>Typography Research</li>
+                    <li>Color System</li>
+                    <li>Corporate Design Manual</li>
+                </ul>
+                <input type="hidden" name="package_core"
+                    value="Logo Suite; Typography Research; Color System; CD Manual">
+            </fieldset>
+
+            <!-- Optional Add-Ons -->
+            <fieldset>
+                <legend>Optional Add-Ons</legend>
+                <label><input type="checkbox" name="addons[]" value="Inverse Logo Version"> Inverse Logo Version</label>
+                <label><input type="checkbox" name="addons[]" value="Social Media Templates (Canva)"> Social Media
+                    Templates (Canva)</label>
+                <label><input type="checkbox" name="addons[]" value="Social Media Templates (Illustrator)"> Social Media
+                    Templates (Illustrator)</label>
+                <label><input type="checkbox" name="addons[]" value="Brand Pattern Library"> Brand Pattern
+                    Library</label>
+                <label><input type="checkbox" name="addons[]" value="Stationery & Print Suite"> Stationery & Print
+                    Suite</label>
+            </fieldset>
+
+            <!-- Additional Wishes -->
+            <fieldset>
+                <legend>Additional Requests</legend>
+                <textarea name="additional" rows="4"
+                    placeholder="Any other wishes? Let me know and I'll make it happen."></textarea>
+            </fieldset>
+
+            <button type="submit" class="booking-submit">Submit Booking</button>
+        </form>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Linker Bereich: Text + Links -->
+            <div class="footer-left">
+                <p>© Copyright by Lana Design | <span id="year"></span></p>
+                <nav class="footer-nav">
+                    <a href="Contact.html">Contact</a> |
+                    <a href="portfolio.pdf" download="Portfolio.pdf">Portfolio</a> |
+                    <a href="img/footer_download/Lebenslauf_Lana_Schrattencker.pdf"
+                        download="CV Schrattenecker Lana.pdf">CV</a> |
+                    <a href="Contact.html">What to do when you wanna work with me</a> |
+                    <a href="Impressum.html">Impressum</a>
+                </nav>
+            </div>
+
+            <!-- Rechter Bereich: Social Media Icons -->
+            <div class="footer-socials">
+                <a href="https://instagram.com/lana.schratte" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-04.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/lana-schrattenecker-ba753b2a5/" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-06.png" alt="LinkedIn"></a>
+                <a href="https://threads.com/lana.schratte" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-61.png" alt="Threads"></a>
+                <a href="https://at.pinterest.com/LanaSchratte" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-08.png" alt="Pinterest"></a>
+                <a href="https://tiktok.com/lana.schratte" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-18.png" alt="TikTok"></a>
+                <a href="https://youtube.com" target="_blank"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-14.png" alt="YouTube"></a>
+                <a href="mailto:lana.schrattenecker@gmail.com"><img
+                        src="img/64x BLACK Squared/Social Media Icons BLACK Squared 64x-53.png" alt="E-Mail"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
