@@ -1,0 +1,234 @@
+/* Base Styles */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #fdfbfa;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+a {
+    color: #4b2e83;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.kontakt-hero {
+    background: linear-gradient(120deg, #f0e4ff, #ffe9ec);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.kontakt-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.kontakt-subtitle {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact Info */
+.kontakt-info {
+    padding: 2rem;
+}
+
+.kontakt-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.kontakt-list {
+    list-style: none;
+    padding: 0;
+}
+
+.kontakt-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Services Section */
+.kontakt-services {
+    background-color: #fafafa;
+    padding: 2rem;
+}
+
+.kontakt-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.kontakt-card {
+    flex: 1 1 250px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.kontakt-card:hover {
+    transform: translateY(-5px);
+}
+
+.kontakt-card h3 {
+    margin-top: 0;
+    color: #4b2e83;
+}
+
+/* Downloads Section */
+.kontakt-downloads {
+    padding: 2rem;
+}
+
+.kontakt-download-list {
+    list-style: none;
+    padding: 0;
+}
+
+.kontakt-link {
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #4b2e83;
+    color: white;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.kontakt-link:hover {
+    background-color: #36205f;
+}
+
+/* Footer */
+.kontakt-footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.kontakt-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    background-color: #f5f8f6; /* sanftes hellgrün */
+}
+
+.kontakt-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.kontakt-box h2 {
+    font-family: 'lt_remarkbold', Times; /* Passe an deine Hauptschriftart an */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222; /* Alternativ: #1a1a1a für weicheres Schwarz */
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.kontakt-box p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.kontakt-box a {
+    color: #7fa77b;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.kontakt-box a:hover {
+    color: #5b855d;
+}
+
+.kontakt-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+@font-face {
+    font-family: 'lt_remarkbold';
+    src: url('../font/lt_remark/ltremark-bold-webfont.woff2') format('woff2'),
+        url('../font/lt_remark/ltremark-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+
+    font-family: 'lt_remarkbold', Times, sans-serif;
+
+
+}
+
+
+/* Kontakt Grid Info */
+.kontakt-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    text-align: center;
+}
+
+.kontakt-item {
+    padding: 1rem 1.5rem;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    background-color: #fdfbfa;
+    font-size: 1rem;
+    color: #2e2e2e;
+}
+
+.kontakt-item:first-child {
+    border-left: none;
+}
+
+.kontakt-item:last-child {
+    border-right: none;
+}
+
+.kontakt-item strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #4b2e83;
+    margin-bottom: 0.3rem;
+}
+
+.kontakt-item a {
+    color: #7fa77b;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.kontakt-item a:hover {
+    color: #5b855d;
+}

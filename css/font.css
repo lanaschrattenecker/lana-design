@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'luxurious_scriptregular';
+    src: url('../font/Luxurious_Script/luxuriousscript-regular-webfont.woff2') format('woff2'),
+        url('../font/Luxurious_Script/luxuriousscript-regular-webfont.woff') format('woff'),
+        url('../font/Luxurious_Script/luxuriousscript-regular-webfont.ttf') format('truetype'),
+        url('../font/Luxurious_Script/luxuriousscript-regular-webfont.svg#luxurious_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'loraregular';
+    src: url('../font/Lora/lora-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../font/Lora/lora-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'lt_remarkbold';
+    src: url('../font/lt_remark/ltremark-bold-webfont.woff2') format('woff2'),
+        url('../font/lt_remark/ltremark-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+
+    font-family: 'lt_remarkbold', Times, sans-serif;
+
+
+}
+
+h1 {
+    font-family: 'lt_remarkbold', Times, serif;
+}
+
+
+@font-face {
+    font-family: 'lt_remarkregular';
+    src: url('../font/lt_remark/ltremark-regular-webfont.woff2') format('woff2'),
+        url('../font/lt_remark/ltremark-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'a_abstract_groovyregular';
+    src: url('../font/a_abstract_groovy/aabstractgroovy-webfont.woff2') format('woff2'),
+        url('../font/a_abstract_groovy/aabstractgroovy-webfont.woff') format('woff'),
+        url('../font/a_abstract_groovy/aabstractgroovy-webfont.ttf') format('truetype'),
+        url('../font/a_abstract_groovy/aabstractgroovy-webfont.svg#a_abstract_groovyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'sylfaen';
+    src: url('../font/sylfaen/sylfaen-webfont.woff') format('woff2'),
+        url('../font/sylfaen/sylfaen-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'linux_libertine_displayRg';
+    src: url('../font/linux_libertine/linlibertine_dr-webfont.woff2') format('woff2'),
+        url('../font/linux_libertine/linlibertine_dr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p {
+
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}

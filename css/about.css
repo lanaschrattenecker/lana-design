@@ -1,0 +1,47 @@
+/* Introduction */
+.introduction_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.introduction_title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.introduction_subtitle {
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 20px;
+    font-family: 'sylfaen', Times, serif;
+}
+
+.introduction_paragraph {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.introduction_highlight {
+    font-weight: bold;
+    color: #2d87f0;
+}
+
+.introduction_quote {
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.introduction_cta {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d87f0;
+    margin-top: 30px;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}

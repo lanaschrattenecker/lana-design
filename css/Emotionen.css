@@ -1,0 +1,98 @@
+/* Project 2 Gallery Styles - EMotionen */
+.project2-section {
+    padding: 40px 20px;
+    background-color: #f5f3f1;
+    /* helles, neutrales Hintergrund-Ton */
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+    color: #333;
+}
+
+.project2-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #641C34;
+    /* dunkles Bordeaux passend zu deinem Farbschema */
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-section p {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+    color: #4a4a4a;
+}
+
+.project2-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(100, 28, 52, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(100, 28, 52, 0.3);
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-caption {
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #641C34;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+.project2-caption strong {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'linux_libertine_displayRg', Times, sans-serif;
+
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+    .project2-section {
+        padding: 20px 10px;
+    }
+
+    .project2-caption {
+        font-size: 0.9rem;
+        padding: 12px 15px;
+    }
+}

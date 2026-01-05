@@ -1,0 +1,103 @@
+/* HERO */
+.fotografie-hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #f5f5f5;
+}
+
+.fotografie-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.fotografie-hero p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* BEFORE/AFTER SLIDER */
+.fotografie-comparison {
+    max-width: 700px;
+    margin: 3rem auto 1rem;
+    text-align: center;
+}
+
+.comparison-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.comp-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.comparison-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.slider-handle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #fff;
+    transform: translateX(-2px);
+    pointer-events: none;
+}
+
+.slider {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    opacity: 0.8;
+}
+
+/* CAPTION */
+.comp-caption {
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* GALLERY GRID */
+.fotografie-gallery {
+    max-width: 1000px;
+    margin: 2rem auto 4rem;
+    padding: 0 1rem;
+}
+
+.fotografie-gallery h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,149 @@
+/* Grundlegendes Styling Projekte */
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card:hover img {
+    opacity: 0.7;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*Collage*/
+
+
+
+
+.collage-intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.collage-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 15px;
+}
+
+.collage-item {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.collage-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collage-item:hover {
+    transform: scale(1.05);
+}
+
+/* Spezial-Effekte */
+.rotate {
+    transform: rotate(-5deg);
+}
+
+.rotate2 {
+    transform: rotate(4deg);
+}
+
+.shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.collage-textbox {
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.collage-textbox h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.collage-textbox p {
+    font-size: 16px;
+    color: #555;
+}

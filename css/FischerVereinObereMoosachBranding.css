@@ -1,0 +1,497 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #89A490;
+}
+
+
+
+.projekt3-hero {
+    padding: 80px 20px;
+    background: #89A490;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.projekt3-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'open_sansbold';
+        color: #2b2b2b;
+
+
+}
+
+.projekt3-hero p {
+    font-size: 1.2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'merriweatherbold';
+        color: #2b2b2b;
+
+
+}
+
+.projekt3-section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+        color: #2b2b2b;
+
+
+
+}
+
+.font-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    text-align: left;
+        color: #2b2b2b;
+
+}
+
+.font-row p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'merriweatherregular';
+        color: #2b2b2b;
+
+}
+
+
+.mitte {
+
+    text-align: center;
+}
+
+.projekt3-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'open_sansbold';
+        color: #2b2b2b;
+
+
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    text-align: center;
+        color: #2b2b2b;
+
+}
+
+.logo-grid img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.logo-grid p {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.color-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 160px;
+    height: 120px;
+    border-radius: 8px;
+    color: F4F2F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+
+
+.color-box.primary1 {
+    background-color: #0E6650;
+    color: #F4F2F3;
+
+}
+
+.color-box.primary2 {
+    background-color: #9BE1A4;
+    color: #2E2C2F;
+
+}
+
+.color-box.primary3 {
+    background-color: #E3CDB9;
+    color: #2E2C2F;
+
+}
+
+.color-box.primary4 {
+    background-color: #F4F2F3;
+    color: #2E2C2F;
+}
+
+.color-box.primary5 {
+    background-color: #2E2C2F;
+    color: #F4F2F3;
+
+}
+
+
+
+.color-box.secondary1 {
+    background-color: #84B18F;
+}
+
+.color-box.secondary2 {
+    background-color: #55A47A;
+}
+
+.color-box.secondary3 {
+    background-color: #799A85;
+}
+
+.color-box.secondary4 {
+    background-color: #BFD7AF;
+    color: #000;
+
+}
+
+.color-box.secondary5 {
+    background-color: #81ACA2;
+}
+
+.color-box.secondary6 {
+    background-color: #1E4940;
+
+
+}
+
+.color-box.secondary7 {
+    background-color: #65817B;
+    color: #F4F2F3;
+
+}
+
+.color-box.secondary8 {
+    background-color: #918F91;
+    color: #000;
+
+}
+
+.color-box.secondary9 {
+    background-color: #65876A;
+    color: #F4F2F3;
+
+}
+
+.color-box.secondary10 {
+    background-color: #C8EACC;
+    color: #000;
+
+}
+
+.color-box.secondary11 {
+    background-color: #94AA97;
+}
+
+.color-box.secondary12 {
+    background-color: #897D74;
+    color: #F4F2F3;
+
+}
+
+.color-box.secondary13 {
+    background-color: #ECE0D6;
+    color: #000;
+
+}
+
+.color-box.secondary14 {
+    background-color: #ACA49E;
+}
+
+.color-box.secondary15 {
+    background-color: #89A490;
+    color: #F4F2F3;
+
+}
+
+
+
+
+
+.color-box.tertiary1 {
+    background-color: #387E6A;
+    color: #F4F2F3;
+
+}
+
+.color-box.tertiary2 {
+    background-color: #A6D8AF;
+    color: #222;
+}
+
+.color-box.tertiary3 {
+    background-color: #C7B5A3;
+    color: #222;
+}
+
+.color-box.tertiary4 {
+    background-color: #F2EDE9;
+    color: #222;
+}
+
+.color-box.tertiary5 {
+    background-color: #5C5149;
+    color: #F4F2F3;
+
+
+}
+
+.color-box.tertiary6 {
+    background-color: #3F6355;
+    color: #F4F2F3;
+
+
+}
+
+.color-box.tertiary7 {
+    background-color: #86A08E;
+
+}
+
+.color-box.tertiary8 {
+    background-color: #7A958E;
+    color: #222;
+}
+
+.color-box.tertiary9 {
+    background-color: #8AA491;
+    color: #222;
+}
+
+.color-box.tertiary10 {
+    background-color: #B9AEA5;
+}
+
+
+
+.projekt3-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #0E6650;
+    color: F4F2F3;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    color: #F4F2F3;
+
+}
+
+.projekt3-button:hover {
+    background-color: #0E6650;
+    color: #F4F2F3;
+
+}
+
+
+
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('merriweather-bold-webfont.woff2') format('woff2'),
+        url('merriweather-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('../font/Merriweather/merriweather-regular-webfont.woff2') format('woff2'),
+        url('../font/Merriweather/merriweather-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+
+    font-family: 'merriweatherregular';
+
+}
+
+.PrimärSchrift {
+
+    font-family: 'merriweatherregular';
+    font-size: 18px;
+
+
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../font/Open_Sans/opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+        url('../font/Open_Sans/opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/Open_Sans/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+        url('../font/Open_Sans/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../font/Open_Sans/opensans-bold-webfont.woff2') format('woff2'),
+        url('../font/Open_Sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h2 {
+
+    font-family: 'open_sansbold';
+
+}
+
+
+.SekundärSchrift {
+
+    font-family: 'open_sansbold';
+    font-size: 18px;
+
+}
+
+h3 {
+
+    font-family: 'open_sansbold';
+
+}
+
+
+h1 {
+
+    font-family: 'open_sansbold';
+
+}
+
+.inverse-logo-container {
+    background-color: #0E6650;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    color: #F4F2F3;
+}
+
+.inverse-logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.inverse-logo-container p {
+    color: F4F2F3;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+
+
+.logo-container {
+    background-color: F4F2F3;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.logo-container p {
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.download-text1 {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: 'merriweatherregular';
+
+
+}
+
+.download-text1:hover {
+    text-decoration: underline;
+    font-family: 'merriweatherregular';
+
+}
+
+
+.download-text2 {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: 'open_sansbold';
+
+}
+
+.download-text2:hover {
+    text-decoration: underline;
+    font-family: 'open_sansbold';
+
+}

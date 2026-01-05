@@ -1,0 +1,255 @@
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    /*Lana Design Header*/
+    color: #2B2B2B;
+    margin-bottom: 0em;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.landing-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    /*Background Landing 7FA77B*/
+}
+
+.box {
+    /*Boxen*/
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.about-lana {
+    background: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-lana-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-lana h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'lt_remarkbold', Times, sans-serif;
+    color: #2b2b2b;
+}
+
+.about-lana p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.cta-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4b2e83;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.cta-link:hover {
+    background-color: #36205f;
+}
+
+.skills-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'lt_remarkbold', Times, sans-serif;
+}
+
+.skills-intro {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tool img {
+    width: 48px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.tool span {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.collab-line {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #2b2b2b;
+}
+
+.collab-line a {
+    color: #7fa77b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.collab-line a:hover {
+    text-decoration: underline;
+}
+
+
+.top-projects {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: 'lt_remarkbold', sans-serif;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    color: inherit;
+    height: 280px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.04);
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 0.85rem;
+}
+
+.overlay h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-family: 'lt_remarkbold', Times, sans-serif;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.text-card {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.text-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'lt_remarkbold', Times, sans-serif;
+}
+
+.text-card p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.project-button {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+    background-color: #7fa77b;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* falls du runde Ecken willst */
+    background-color: #0E6650;
+}

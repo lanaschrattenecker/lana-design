@@ -1,0 +1,141 @@
+/* HERO SECTION */
+.branding-hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(135deg, #89A490 0%, #E1DBD7 100%);
+    color: #2b2b2b;
+}
+
+.branding-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.branding-hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.branding-cta {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #2b2b2b;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.branding-cta:hover {
+    background-color: #444;
+}
+
+/* DETAILS SECTION */
+.branding-details {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.branding-details h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2b2b2b;
+}
+
+.branding-service-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.branding-service-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.branding-service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.branding-service-item p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.branding-service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* BOOKING CALL */
+.branding-book {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.branding-book p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.branding-book a {
+    color: #2b2b2b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* OPTIONAL ADD-ONS */
+.branding-addons {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.branding-addons h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2b2b2b;
+}
+
+.addons-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.addon-item {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.addon-item h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    color: #2b2b2b;
+}
+
+.addon-item p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.addon-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}

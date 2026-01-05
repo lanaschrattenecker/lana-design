@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #fdfdfd;
+    color: #2a2a2a;
+}
+
+.info-section {
+    padding: 4rem 2rem;
+}
+
+.info-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.info-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.infj {
+    color: #6a1b9a;
+}
+
+.slytherin {
+    color: #1a472a;
+    text-shadow: 0 0 4px #1a472a;
+}
+
+.ravenclaw {
+    color: #0e1a40;
+    text-shadow: 0 0 4px #0e1a40;
+}
+
+.double-libra {
+    color: #ffb6c1;
+    font-weight: bold;
+}
+
+.zodiac {
+    color: #8e44ad;
+}
+
+.spk {
+    color: #8e44ad;
+}
+
+.aphrodite {
+    color: #ffc0cb;
+}
+
+.nightcourt {
+    color: #4b0082;
+}
+
+.acotar {
+    color: #2e003e;
+}
+
+.divergent {
+    color: #5d4037;
+}
+
+.dauntless {
+    color: #e65100;
+}
+
+.lightsaber {
+    color: #78ff8f;
+    text-shadow: 0 0 6px #78ff8f;
+}
+
+.middleearth {
+    color: #4e944f;
+}
+
+.human {
+    color: #8d6e63;
+}
+
+.targaryen {
+    color: #a52a2a;
+}
+
+.hercules {
+    color: #ff9800;
+}
+
+.belle {
+    color: #f9d71c;
+}
+
+.blackclover {
+    color: #000;
+}
+
+.blackbulls {
+    color: #111;
+}
+
+.demonslayer {
+    color: #000;
+    border-bottom: 2px solid red;
+}
+
+.rengoku {
+    background: linear-gradient(90deg, red, orange, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Optional, non-standard */
+    font-weight: bold;
+    display: inline-block;
+    /* wichtig für Safari */
+}
+
+.tsuguko {
+    color: #650036;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tsuguko:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px #65003699;
+}
+
+.aot {
+    color: #111;
+}
+
+.scout {
+    color: #3e5c3a;
+}
+
+.music {
+    color: #9c27b0;
+}
+
+.info-highlight {
+    background-color: #fff4cc;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.info-blockquote {
+    font-style: italic;
+    background-color: #f4f1fa;
+    border-left: 5px solid #9b59b6;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+}
+
+.info-keyword {
+    font-weight: bold;
+    color: #5e35b1;
+}
+
+.info-symbol {
+    color: #d84315;
+    font-weight: bold;
+}
+
+.info-closing {
+    text-align: center;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #fff8dc, #fcefee);
+    padding: 2rem;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+
+.info-rewrite {
+    display: inline-block;
+    font-style: italic;
+    color: #502f4c;
+    font-weight: 500;
+    text-shadow: 0 0 4px rgba(80, 47, 76, 0.2);
+}
+
+.info-cta {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4b2e83;
+    /* tiefes, einprägsames Violett */
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    animation: pulse-cta 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse-cta {
+    0% {
+        text-shadow: 0 0 0px rgba(75, 46, 131, 0.3);
+    }
+
+    50% {
+        text-shadow: 0 0 8px rgba(75, 46, 131, 0.5);
+    }
+
+    100% {
+        text-shadow: 0 0 0px rgba(75, 46, 131, 0.3);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .info-title {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+    }
+
+    .info-closing {
+        font-size: 1.1rem;
+    }
+}
